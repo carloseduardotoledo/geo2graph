@@ -1,5 +1,7 @@
 # geo2graph
 
+Geo2Graph is an initiative to transform geographic information systems data into graph databases, allowing the use of graph algebra and algorithms to analyze topological relations. 
+
 The inital effort of this proposition will be using Esri ArcGIS Geodatabase as the GIS source of data and topological relations,  [ArcGIS API for Python](https://developers.arcgis.com/python/), Python, Cypher and Neo4j as the destination Graph Database.
 
 Feature Classes will be extract, transformed, and load as Graph Nodes while spatial relations will be ETLed as Graphs Edges.
